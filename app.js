@@ -2,8 +2,10 @@ const express = require('express');
 const app = express();
 const moment = require('moment');
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', (req, res) => {
-  res.send('give me some times in that url');
+  res.render('index');
 });
 
 app.get('/:time', (req, res) => {
