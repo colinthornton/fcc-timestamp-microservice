@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/colinthornton/fcc-timestamp-microservice#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "moment": "^2.19.2"
   }
 }
